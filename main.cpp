@@ -1,4 +1,4 @@
-int main()
+aaa int main()
 {
 
 	int a;
