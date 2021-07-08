@@ -1,0 +1,11 @@
+ procedure bubbleSort( A : lista elementów do posortowania )
+   n = liczba_elementów(A)
+   do
+     for (i = 0; i < n-1; i++) do:
+       if A[i] > A[i+1] then
+         swap(A[i], A[i+1])
+       end if
+     end for
+     n = n-1
+   while n > 1
+ end procedure
